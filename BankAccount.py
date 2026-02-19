@@ -1,5 +1,3 @@
-from savingsAccount import SavingsAccount
-
 class MarvinBank:
     bankName = "Marvin's Bank"
     def __init__(self, customer_name, current_balance, minimum_balance):
