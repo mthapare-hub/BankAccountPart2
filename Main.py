@@ -22,6 +22,15 @@ Samuel.withdraw(100000)
 
 Samuel.print_customer_info()
 
+Aaron = AccountWithTransferLimit("Aaron", 900000, 100, 111, 222, 500)
+Aaron.deposit(100000)
+Aaron.withdraw(30000)
+Aaron.print_customer_info()
+
 David = SavingsAccount("David", 100000, 100, 67, 6767)
 David.apply_interest()
 David.deposit(1000)
+
+Roger = SavingsAccount("Roger", 50000, 100, 555, 3131)
+Roger.withdraw(10000)
+Roger.print_customer_info()
