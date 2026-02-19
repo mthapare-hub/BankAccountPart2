@@ -1,9 +1,10 @@
 class MarvinBank:
     bankName = "Marvin's Bank"
-    def __init__(self, customer_name, current_balance, minimum_balance):
+    def __init__(self, customer_name, current_balance, minimum_balance, account_number, routing_numeber):
         self.customer_name = customer_name
         self.current_balance = current_balance
         self.minimum_balance = minimum_balance
+        self._account_number = account_number
 
     def deposit(self, balance):
         self.current_balance += balance
