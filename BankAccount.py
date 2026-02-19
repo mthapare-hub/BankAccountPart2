@@ -1,3 +1,5 @@
+from savingsAccount import SavingsAccount
+
 class MarvinBank:
     bankName = "Marvin's Bank"
     def __init__(self, customer_name, current_balance, minimum_balance):
@@ -23,16 +25,16 @@ class MarvinBank:
         print("**************************")
 
 
-Marvin =  MarvinBank("Marvin", 100000, 1000)
-Marvin.deposit(100000)
-Marvin.withdraw(200000)
-Marvin.withdraw(100000)
-
-Marvin.print_customer_info()
-
-Lucy = MarvinBank("Lucy", 200000, 100)
-Lucy.deposit(500000)
-Lucy.withdraw(300000)
-#Lucy.withdraw(300000)
-
-Lucy.print_customer_info()
+# Marvin =  MarvinBank("Marvin", 100000, 1000)
+# Marvin.deposit(100000)
+# Marvin.withdraw(200000)
+# Marvin.withdraw(100000)
+#
+# Marvin.print_customer_info()
+#
+# Lucy = MarvinBank("Lucy", 200000, 100)
+# Lucy.deposit(500000)
+# Lucy.withdraw(300000)
+# #Lucy.withdraw(300000)
+#
+# Lucy.print_customer_info()
