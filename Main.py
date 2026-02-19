@@ -24,3 +24,4 @@ Samuel.print_customer_info()
 
 David = SavingsAccount("David", 100000, 100, 67, 6767)
 David.apply_interest()
+David.deposit(1000)

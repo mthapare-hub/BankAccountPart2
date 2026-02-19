@@ -8,3 +8,8 @@ class SavingsAccount(MarvinBank):
     def apply_interest(self):
         interest = self.current_balance * (1 + SavingsAccount.interestRate)
         print(f"{self.customer_name} balance after interest would be:  ${interest}")
+
+    def deposit(self, amount):
+        print(f"You deposited ${amount} for a total of ${amount + self.current_balance}")
+        self.current_balance = (self.current_balance + amount) * (1 + SavingsAccount.interestRate)
+        print(f"Your new balance after interest would be:  ${self.current_balance}")
