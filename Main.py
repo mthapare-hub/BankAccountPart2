@@ -21,3 +21,6 @@ Samuel.deposit(100000)
 Samuel.withdraw(100000)
 
 Samuel.print_customer_info()
+
+David = SavingsAccount("David", 100000, 100, 67, 6767)
+David.apply_interest()
